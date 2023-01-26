@@ -1,0 +1,25 @@
+body {
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+    /* text-align: center; */
+    /* grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto; */
+    color: rgb(125, 47, 47);
+    /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
+}
+
+img {
+    height: 100px;
+    width: 100px;
+    margin: auto;
+}
+
+ul {
+    list-style: none;
+}
+a {
+    color: rgb(97, 243, 35)
+}
+@media screen and(max-width: 768px){
+    body {
+        background: linear-gradient(0.25turn, #f69d3c, #ebf8e1, #3f87a6);}
+}
